@@ -1,7 +1,6 @@
 import Vue, { createApp } from '@vue/compat';
 
 import App from '@/App.vue';
-import '@/style.css';
 import router from '@/router';
 
 import { BootstrapVue } from 'bootstrap-vue';
