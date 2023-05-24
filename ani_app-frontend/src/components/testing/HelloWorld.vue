@@ -1,7 +1,7 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
@@ -10,7 +10,7 @@ const count = ref(0)
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
-      <img src="@/assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <img src="../../assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
 
@@ -27,7 +27,7 @@ const count = ref(0)
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
+    >create-vue</a
     >, the official Vue + Vite starter
   </p>
   <p>
@@ -55,6 +55,6 @@ const count = ref(0)
 }
 
 .read-the-docs {
-  color: #888;
+    color: #888;
 }
 </style>
